@@ -9,6 +9,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         val searchButton = findViewById<View>(R.id.search)
         val media = findViewById<View>(R.id.media)
         val settings = findViewById<View>(R.id.settings)
